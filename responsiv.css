@@ -1,0 +1,11 @@
+@media screen and(max-with:480px) {
+  .header {
+    background-color: red;
+  }
+  .nav {
+    display: block !important;
+  }
+  .nav__logo {
+    display: block !important;
+  }
+}
