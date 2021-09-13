@@ -112,4 +112,20 @@
   .footer__nav {
     display: block;
   }
+  .modal {
+    padding: 0;
+  }
+  .modal h2 {
+    font-size: 2rem;
+    margin-left: 8%;
+  }
+  .modal label {
+    font-size: 1rem;
+  }
+  .modal__form input {
+    padding: 0;
+  }
+  .modal button {
+    padding: 1.25rem 3.5rem;
+  }
 }
