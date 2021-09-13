@@ -7,16 +7,25 @@
     margin: 5px -70px;
   }
   .nav__links {
-    margin: -2px -100px;
+    margin: -2px -85px;
   }
   .nav__link:link {
-    font-size: 1.15rem;
+    font-size: 0.8rem;
+  }
+  .nav__item {
+    margin-left: 2rem;
+  }
+  .sticky .nav__links {
+    margin: 5px -60px;
+  }
+  .sticky .nav__logo {
+    margin: 5px -40px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
   h4 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
   .header__title {
     grid-template-rows: 1fr 1fr 1fr;
@@ -33,5 +42,25 @@
   }
   .header-item4 {
     grid-area: 3/3/1/2;
+  }
+  .section__header {
+    font-size: 3rem;
+  }
+  .features {
+    display: inline;
+  }
+  .features__feature {
+    width: 100%;
+  }
+  .features__img {
+    display: block;
+  }
+  .features__icon {
+    margin: 0 auto;
+  }
+  .features__header,
+  .features__feature > p {
+    text-align: center;
+    padding-bottom: 5px;
   }
 }
